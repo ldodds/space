@@ -1,0 +1,47 @@
+<rdf:RDF xmlns:rdf      = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs     = "http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:foaf     = "http://xmlns.com/foaf/0.1/"
+         xmlns:po       = "http://purl.org/ontology/po/"
+         xmlns:dc       = "http://purl.org/dc/elements/1.1/"
+         >
+
+<po:Episode rdf:about="http://www.bbc.co.uk/programmes/b00lg2xb#programme">
+
+  <dc:title>One Small Step</dc:title>
+  <po:short_synopsis>The story of Neil Armstrong and Buzz Aldrin's trip to the moon.</po:short_synopsis>
+  
+  <foaf:topic rdf:resource="http://data.kasabi.com/dataset/nasa/mission/apollo-10"/>
+  <foaf:primaryTopic rdf:resource="http://data.kasabi.com/dataset/nasa/person/neilaldenarmstrong"/>  
+  <foaf:primaryTopic rdf:resource="http://data.kasabi.com/dataset/nasa/person/edwineugenealdrinjr"/>
+  <foaf:primaryTopic rdf:resource="http://data.kasabi.com/dataset/nasa/mission/apollo-11"/>
+  <foaf:primaryTopic rdf:resource="http://data.kasabi.com/dataset/nasa/mission/apollo-10"/>
+  
+</po:Episode>
+
+<rdf:Description rdf:about="http://data.kasabi.com/dataset/nasa/person/neilaldenarmstrong">
+  <foaf:isPrimaryTopicOf rdf:resource="http://www.bbc.co.uk/programmes/b00lg2xb#programme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.kasabi.com/dataset/nasa/person/edwineugenealdrinjr">
+  <foaf:isPrimaryTopicOf rdf:resource="http://www.bbc.co.uk/programmes/b00lg2xb#programme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.kasabi.com/dataset/nasa/mission/apollo-11">
+  <foaf:isPrimaryTopicOf rdf:resource="http://www.bbc.co.uk/programmes/b00lg2xb#programme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.kasabi.com/dataset/nasa/mission/apollo-10">
+  <foaf:isPrimaryTopicOf rdf:resource="http://www.bbc.co.uk/programmes/b00lg2xb#programme"/>
+</rdf:Description>
+
+<po:Episode rdf:about="http://www.bbc.co.uk/programmes/b007stmh#programme">
+
+  <dc:title>Blast Off!</dc:title>
+  <po:short_synopsis>James May investigates what the Space Race did for all of us.</po:short_synopsis>
+    
+  <foaf:topic rdf:resource="http://data.kasabi.com/dataset/nasa/launchsite/capecanaveral"/>
+  
+</po:Episode>
+           
+</rdf:RDF>
+         

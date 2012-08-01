@@ -1,0 +1,8 @@
+#Construct the space:launch predicates
+PREFIX space: <http://purl.org/net/schemas/space/>
+CONSTRUCT {
+  ?mission space:missionRole ?role.
+}
+WHERE {  
+  ?role a space:MissionRole; space:mission ?mission.
+}

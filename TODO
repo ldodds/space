@@ -1,0 +1,35 @@
+Failed on MESO-A.html
+undefined method `[]' for nil:NilClass
+Skipping excluded file 1966-045Z.html
+Failed on 1997-061A.html
+undefined method `[]' for nil:NilClass
+Failed on C-NOFS.html
+undefined method `[]' for nil:NilClass
+Failed on 1992-031A.html
+undefined method `[]' for nil:NilClass
+Skipping excluded file 1966-073Z.html
+Failed on 2003-045A.html
+undefined method `[]' for nil:NilClass
+Failed on 1990-007A.html
+undefined method `[]' for nil:NilClass
+Skipping excluded file 1965-024Z.html
+Failed on 2002-052B.html
+undefined method `[]' for nil:NilClass
+Skipping excluded file 2007-048D.html
+Failed on 1989-084B.html
+undefined method `[]' for nil:NilClass
+Failed on ATS-G.html
+undefined method `inner_text' for nil:NilClass
+Failed on PLANET-C.html
+undefined method `[]' for nil:NilClass
+Skipping excluded file 1989-027A.html
+Failed on 1990-065A.html
+undefined method `[]' for nil:NilClass
+Failed on ITOS-C.html
+undefined method `inner_text' for nil:NilClass
+Failed on 1997-061C.html
+undefined method `[]' for nil:NilClass
+Failed on 1989-084E.html
+undefined method `[]' for nil:NilClass
+Skipping excluded file 1968-118Z.html
+

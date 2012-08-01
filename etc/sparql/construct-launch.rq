@@ -1,0 +1,9 @@
+#Construct the space:launch predicates
+PREFIX space: <http://purl.org/net/schemas/space/>
+CONSTRUCT {
+  ?spacecraft space:launch ?launch.
+}
+WHERE {
+  ?launch a space:Launch;
+     space:spacecraft ?spacecraft.
+}

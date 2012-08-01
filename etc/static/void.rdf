@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:void="http://rdfs.org/ns/void#">
+
+ <rdf:Description rdf:about="http://data.kasabi.com/dataset/nasa/">
+
+  <dct:source rdf:resource="http://nssdc.gsfc.nasa.gov/nmc/"/>
+  <dct:source rdf:resource="http://history.nasa.gov/SP-4029/Apollo_00a_Cover.htm"/>
+  
+  <void:exampleResource rdf:resource="http://data.kasabi.com/dataset/nasa/spacecraft/1977-084A"/>
+  <void:exampleResource rdf:resource="http://data.kasabi.com/dataset/nasa/spacecraft/1969-059A"/>
+  <void:exampleResource rdf:resource="http://data.kasabi.com/dataset/nasa/spacecraft/1957-001B"/>
+  <void:exampleResource rdf:resource="http://data.kasabi.com/dataset/nasa/mission/apollo-11"/>
+  <void:exampleResource rdf:resource="http://data.kasabi.com/dataset/nasa/person/neilaldenarmstrong"/>
+  <void:exampleResource rdf:resource="http://data.kasabi.com/dataset/nasa/person/eugeneandrewcernan"/>
+  
+
+  <dct:description>
+  Conversion of various NASA datasets into RDF, starting with the spacecraft data from the NSSDC master catalog
+  </dct:description>
+
+  <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  <dct:title>NASA Space Flight &amp; Astronaut data</dct:title>
+  <void:uriRegexPattern>http://data.kasabi.com/dataset/nasa/.+</void:uriRegexPattern>
+  <void:sparqlEndpoint rdf:resource="http://api.talis.com/stores/space/services/sparql"/>
+
+</rdf:Description>
+
+</rdf:RDF>
